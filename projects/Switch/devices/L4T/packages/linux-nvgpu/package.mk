@@ -19,12 +19,12 @@
 ################################################################################
 
 PKG_NAME="linux-nvgpu"
-PKG_VERSION="tegra-l4t-r32.1"
-PKG_VERSION_LONG="tegra-l4t-r32.1.1"
+PKG_VERSION="tegra-l4t-r32.2.3"
+PKG_VERSION_LONG="tegra-l4t-r32.2.3"
 PKG_ARCH="any"
 PKG_LICENSE="nonfree"
 PKG_SITE="https://nv-tegra.nvidia.com/gitweb"
-PKG_URL="https://nv-tegra.nvidia.com/gitweb/?p=$PKG_NAME.git;a=snapshot;h=$PKG_VERSION;sf=tgz"
+PKG_URL="https://gitlab.incom.co/CM-Shield/android_kernel_nvidia_linux-4.9_kernel_nvgpu/-/archive/lineage-16.0/android_kernel_nvidia_linux-4.9_kernel_nvgpu-lineage-16.0.tar.gz"
 PKG_CLEAN="linux"
 
 make_target() {

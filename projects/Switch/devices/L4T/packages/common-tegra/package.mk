@@ -23,7 +23,7 @@ PKG_VERSION="rel-30-r2"
 PKG_ARCH="any"
 PKG_LICENSE="nonfree"
 PKG_SITE="https://nv-tegra.nvidia.com/gitweb"
-PKG_URL="https://nv-tegra.nvidia.com/gitweb/?p=device/hardware/nvidia/platform/tegra/common.git;a=snapshot;h=$PKG_VERSION;sf=tgz"
+PKG_URL="https://gitlab.incom.co/CM-Shield/android_kernel_nvidia_linux-4.9_hardware_nvidia_platform_tegra_common/-/archive/lineage-16.0/android_kernel_nvidia_linux-4.9_hardware_nvidia_platform_tegra_common-lineage-16.0.tar.gz"
 PKG_CLEAN="linux"
 
 make_target() {

@@ -98,8 +98,8 @@ prepare() {
   cp -r $PKG_BUILD/../linux-nvidia-*/* $PKG_BUILD/kernel/nvidia
 
   # abca
-  mkdir -p $PKG_BUILD/hardware/nvidia/platform/t210/switch
-  cp -r $PKG_BUILD/../l4t-platform-t210-switch-*/* $PKG_BUILD/hardware/nvidia/platform/t210/switch/
+  mkdir -p $PKG_BUILD/hardware/nvidia/platform/t210/icosa
+  cp -r $PKG_BUILD/../l4t-platform-t210-switch-*/* $PKG_BUILD/hardware/nvidia/platform/t210/icosa/
 
   # tegra
   mkdir -p $PKG_BUILD/hardware/nvidia/soc/tegra/

@@ -23,7 +23,7 @@ PKG_VERSION="rel-30-r2"
 PKG_ARCH="any"
 PKG_LICENSE="nonfree"
 PKG_SITE="https://nv-tegra.nvidia.com/gitweb"
-PKG_URL="https://nv-tegra.nvidia.com/gitweb/?p=device/hardware/nvidia/soc/$PKG_NAME.git;a=snapshot;h=$PKG_VERSION;sf=tgz"
+PKG_URL="https://gitlab.incom.co/CM-Shield/android_kernel_nvidia_linux-4.9_hardware_nvidia_soc_t210/-/archive/lineage-16.0/android_kernel_nvidia_linux-4.9_hardware_nvidia_soc_t210-lineage-16.0.tar.gz"
 PKG_CLEAN="linux switch-bootloader"
 
 make_target() {

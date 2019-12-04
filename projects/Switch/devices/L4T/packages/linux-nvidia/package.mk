@@ -19,11 +19,11 @@
 ################################################################################
 
 PKG_NAME="linux-nvidia"
-PKG_VERSION="d36e073c147e6c8c398012373f7d2b3e7b00f3cd"
-PKG_GIT_BRANCH="rel32-rel32stack"
+PKG_VERSION="3949d498"
+PKG_GIT_BRANCH="linux-rel32"
 PKG_ARCH="any"
 PKG_LICENSE="nonfree"
-PKG_SITE="https://gitlab.com/switchroot/l4t-kernel-nvidia"
+PKG_SITE="https://gitlab.com/switchroot/kernel/l4t-kernel-nvidia"
 PKG_GIT_URL="$PKG_SITE"
 PKG_CLEAN="linux"
 
