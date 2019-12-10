@@ -52,5 +52,5 @@ makeinstall_init() {
 
 unpack() {
 	mkdir -p $PKG_BUILD
-	tar -xf "$SOURCES/$PKG_NAME/$PKG_NAME-$PKG_VERSION.git;a=snapshot;h=$PKG_VERSION;sf=tgz" -C $PKG_BUILD --strip 1
+	tar -xf "$SOURCES/$PKG_NAME/$PKG_NAME-$PKG_VERSION.tar.gz" -C $PKG_BUILD --strip 1
 }

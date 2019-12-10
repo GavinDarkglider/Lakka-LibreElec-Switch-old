@@ -19,11 +19,11 @@
 ################################################################################
 
 PKG_NAME="l4t-platform-t210-switch"
-PKG_VERSION="d875238e"
+PKG_VERSION="c8085a7a"
 PKG_GIT_BRANCH="linux-rel32"
 PKG_ARCH="any"
 PKG_LICENSE="nonfree"
-PKG_SITE="https://gitlab.com/switchroot/kernel/l4t-platform-t210-icosa"
+PKG_SITE="https://gitlab.com/switchroot/kernel/l4t-platform-t210-switch"
 PKG_GIT_URL="$PKG_SITE"
 PKG_CLEAN="linux switch-bootloader"
 

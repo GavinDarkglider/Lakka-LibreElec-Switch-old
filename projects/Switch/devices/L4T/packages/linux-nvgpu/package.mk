@@ -53,5 +53,5 @@ makeinstall_init() {
 
 unpack() {
 	mkdir -p $PKG_BUILD
-	tar -xf "$SOURCES/$PKG_NAME/$PKG_NAME-$PKG_VERSION_LONG;sf=tgz" -C $PKG_BUILD --strip 1
+	tar -xf "$SOURCES/$PKG_NAME/$PKG_NAME-$PKG_VERSION_LONG.tar.gz" -C $PKG_BUILD --strip 1
 }

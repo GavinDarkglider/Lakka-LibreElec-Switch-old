@@ -19,7 +19,7 @@
 ################################################################################
 
 PKG_NAME="l4t-kernel"
-PKG_VERSION="e2b3e76f"
+PKG_VERSION="de2d674b"
 PKG_GIT_BRANCH="linux-rel32"
 PKG_ARCH="any"
 PKG_LICENSE="nonfree"
